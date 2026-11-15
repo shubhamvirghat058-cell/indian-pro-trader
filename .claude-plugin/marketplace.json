@@ -1,0 +1,23 @@
+
+{
+  "name": "indian-pro-trader-marketplace",
+  "owner": {
+    "name": "shubhamvirghat058-cell"
+  },
+  "plugins": [
+    {
+      "name": "indian-pro-trader",
+      "description": "Indian NSE and BSE trading analysis using Smart Money Concepts and risk management.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/shubhamvirghat058-cell/indian-pro-trader.git",
+        "path": "skills/indian-pro-trader",
+        "ref": "main"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    }
+  ]
+}
